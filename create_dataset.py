@@ -8,7 +8,7 @@ dataset_id = 'valued-lyceum-341108.dataset_py'
 
 dataset = bigquery.Dataset(dataset_id)
 
-dataset.location = 'US'
+dataset.location = 'asia-northeast1'
 dataset.description = 'dataset from Python'
 
 dataset_ref = client.create_dataset(dataset, timeout=30)
